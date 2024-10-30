@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <!-- FontAwesome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- DaisyUI link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind CSS link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- Navbar area  -->
+    <!-- <div class="navbar bg-base-200">
+  
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-xl">
+            <i class="fa-solid fa-arrow-up-right-from-square p-3 rounded-full bg-[#ABEF5F] mr-2"></i>Rinterio
+          </a>
+        </div>
+
+   
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-lg">Home</a></li>
+            <li><a class="text-lg">Services</a></li>
+            <li><a class="text-lg">Portfolio</a></li>
+            <li><a class="text-lg">Blogs</a></li>
+            <li><a class="text-lg">Contact Us</a></li>
+          </ul>
+        </div>
+
+
+        <div class="navbar-end gap-2">
+            <div class="hidden lg:flex gap-3">
+                <i class="fa-solid fa-magnifying-glass text-2xl p-2 bg-white rounded-full"></i>
+                <i class="fa-solid fa-cart-shopping text-2xl p-2 bg-white rounded-full"></i>
+            </div>
+            <a class="btn bg-[#ABEF5F] text-xl rounded-full hidden lg:block">Book Consult <i class="fa-solid fa-arrow-up-right-dots"></i></a>
+        </div>
+
+        <div class="navbar-end lg:hidden">
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </label>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Home</a></li>
+                  <li><a>Services</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+    <header class="p-4 dark:bg-gray-100 dark:text-gray-800 w-[90%] mx-auto">
+        <div class="container flex justify-between h-16 mx-auto">
+            <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
+                <i class="fa-solid fa-arrow-up-right-from-square p-3 rounded-full bg-[#ABEF5F] mr-2"></i><span class="text-xl">Rinterio</span>
+            </a>
+            <ul class="items-stretch hidden space-x-3 lg:flex">
+                <li class="flex">
+                    <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 ">Home</a>
+                </li>
+                <li class="flex">
+                    <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 ">Services</a>
+                </li>
+                <li class="flex">
+                    <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 ">Portfolio</a>
+                </li>
+                <li class="flex">
+                    <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 ">Blogs</a>
+                </li>
+                <li class="flex">
+                    <a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 ">Contact Us</a>
+                </li>
+            </ul>
+            <div class="items-center flex-shrink-0 hidden lg:flex gap-2">
+                <div class=" lg:flex gap-3">
+                    <i class="fa-solid fa-magnifying-glass text-2xl p-2 bg-white rounded-full"></i>
+                    <i class="fa-solid fa-cart-shopping text-2xl p-2 bg-white rounded-full"></i>
+                </div>
+                <a class="btn bg-[#ABEF5F] text-lg rounded-full">Book Consult <i class="fa-solid fa-arrow-up-right-dots"></i></a>
+            </div>
+            <button class="p-4 lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 dark:text-gray-800">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+</body>
+</html>
