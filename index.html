@@ -1,68 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar</title>
+    <!-- css link  -->
+     <link rel="stylesheet" href="style.css">
     <!-- FontAwesome link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- DaisyUI link  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- Tailwind CSS link  -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
 
     <!-- Navbar area  -->
-    <!-- <div class="navbar bg-base-200">
-  
-        <div class="navbar-start">
-          <a class="btn btn-ghost text-xl">
-            <i class="fa-solid fa-arrow-up-right-from-square p-3 rounded-full bg-[#ABEF5F] mr-2"></i>Rinterio
-          </a>
-        </div>
-
-   
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a class="text-lg">Home</a></li>
-            <li><a class="text-lg">Services</a></li>
-            <li><a class="text-lg">Portfolio</a></li>
-            <li><a class="text-lg">Blogs</a></li>
-            <li><a class="text-lg">Contact Us</a></li>
-          </ul>
-        </div>
-
-
-        <div class="navbar-end gap-2">
-            <div class="hidden lg:flex gap-3">
-                <i class="fa-solid fa-magnifying-glass text-2xl p-2 bg-white rounded-full"></i>
-                <i class="fa-solid fa-cart-shopping text-2xl p-2 bg-white rounded-full"></i>
-            </div>
-            <a class="btn bg-[#ABEF5F] text-xl rounded-full hidden lg:block">Book Consult <i class="fa-solid fa-arrow-up-right-dots"></i></a>
-        </div>
-
-        <div class="navbar-end lg:hidden">
-            <div class="dropdown">
-                <label tabindex="0" class="btn btn-ghost">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </label>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Home</a></li>
-                  <li><a>Services</a></li>
-                  <li><a>Portfolio</a></li>
-                  <li><a>Blogs</a></li>
-                  <li><a>Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
     <header class="p-4 dark:bg-gray-100 dark:text-gray-800 w-[90%] mx-auto">
         <div class="container flex justify-between h-16 mx-auto">
             <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
-                <i class="fa-solid fa-arrow-up-right-from-square p-3 rounded-full bg-[#ABEF5F] mr-2"></i><span class="text-xl">Rinterio</span>
+                <i class="fa-solid fa-arrow-up-right-from-square p-3 rounded-full bg-[#ABEF5F] mr-2"></i><span
+                    class="text-xl">Rinterio</span>
             </a>
             <ul class="items-stretch hidden space-x-3 lg:flex">
                 <li class="flex">
@@ -86,14 +48,78 @@
                     <i class="fa-solid fa-magnifying-glass text-2xl p-2 bg-white rounded-full"></i>
                     <i class="fa-solid fa-cart-shopping text-2xl p-2 bg-white rounded-full"></i>
                 </div>
-                <a class="btn bg-[#ABEF5F] text-lg rounded-full">Book Consult <i class="fa-solid fa-arrow-up-right-dots"></i></a>
+                <a class="btn bg-[#ABEF5F] text-lg rounded-full">Book Consult <i
+                        class="fa-solid fa-arrow-up-right-dots"></i></a>
             </div>
             <button class="p-4 lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 dark:text-gray-800">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                    class="w-6 h-6 dark:text-gray-800">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                    </path>
                 </svg>
             </button>
         </div>
     </header>
+
+    <!-- banner area  -->
+    <div class="hero bg-base-200 w-[90%] h-[600px] mx-auto p-2">
+        <div class="hero-content text-center">
+            <div class="max-w-3xl mx-auto">
+                <img class="mx-auto" src="./assets/banner.png" alt="">
+                <h1 class="text-5xl font-bold">A barn house of this design has a striking appearance</h1>
+                <p class="py-6">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                    weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                </p>
+                <a class="btn bg-[#d3f6ad] text-lg rounded-full w-full lg:w-56">View Details <i
+                        class="fa-solid fa-arrow-up-right-dots p-2 rounded-full bg-[#ABEF5F]"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- We design thoughtful, liveable spaces  -->
+   
+    <div class="container mx-auto px-4 py-16 flex flex-col lg:flex-row items-center gap-12 lg:gap-16 w-[90%] mx-auto text-center lg:text-left">
+        <div class="lg:w-1/2 space-y-6 relative ">
+             <img class=" hidden lg:block " src="./assets/Vector.png" alt="">
+         
+            
+            <div class="flex items-center text-center lg:text-left m-auto">
+                <button class="bg-white px-4 py-2 rounded-full flex items-center shadow-md hover:shadow-lg transition ">
+                    <span class="text-xl">→</span>
+                    <span class="font-semibold text-lg">About Us</span>
+                </button>
+            </div>
+            <h1 class="text-4xl font-bold text-gray-900 leading-tight">We design thoughtful, <br> liveable spaces</h1>
+            <p class="text-gray-600 leading-relaxed">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            
+            <div class="space-y-4">
+                <div class="flex items-start p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition">
+                    <div class="text-4xl mr-4 text-gray-700">
+                        <img src="./assets/commercial.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg">Commercial</h3>
+                        <p class="text-gray-600 text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+                <div class="flex items-start p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition">
+                    <div class="text-4xl mr-4 text-gray-700">
+                      <img src="./assets/residential.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg">Residential</h3>
+                        <p class="text-gray-600 text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lg:w-1/2">
+            <img src="./assets/Rectangle.png" alt="Modern House" class="w-full rounded-lg shadow-lg">
+        </div>
+    </div>
+
+    
 </body>
+
 </html>
