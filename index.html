@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar</title>
     <!-- css link  -->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- FontAwesome link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -17,7 +17,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="">
 
     <!-- Navbar area  -->
     <header class="p-4 dark:bg-gray-100 dark:text-gray-800 w-[90%] mx-auto">
@@ -78,12 +78,13 @@
     </div>
 
     <!-- We design thoughtful, liveable spaces  -->
-   
-    <div class="container mx-auto px-4 py-16 flex flex-col lg:flex-row items-center gap-12 lg:gap-16 w-[90%] mx-auto text-center lg:text-left">
+
+    <div
+        class="container mx-auto px-4 py-16 flex flex-col lg:flex-row items-center gap-12 lg:gap-16 w-[90%] mx-auto text-center lg:text-left">
         <div class="lg:w-1/2 space-y-6 relative ">
-             <img class=" hidden lg:block " src="./assets/Vector.png" alt="">
-         
-            
+            <img class=" hidden lg:block " src="./assets/Vector.png" alt="">
+
+
             <div class="flex items-center text-center lg:text-left m-auto">
                 <button class="bg-white px-4 py-2 rounded-full flex items-center shadow-md hover:shadow-lg transition ">
                     <span class="text-xl">→</span>
@@ -91,8 +92,9 @@
                 </button>
             </div>
             <h1 class="text-4xl font-bold text-gray-900 leading-tight">We design thoughtful, <br> liveable spaces</h1>
-            <p class="text-gray-600 leading-relaxed">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-            
+            <p class="text-gray-600 leading-relaxed">The barn house captivates with its blend of rustic charm and modern
+                sophistication, featuring weathered wood, sleek metal accents.</p>
+
             <div class="space-y-4">
                 <div class="flex items-start p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition">
                     <div class="text-4xl mr-4 text-gray-700">
@@ -100,16 +102,18 @@
                     </div>
                     <div>
                         <h3 class="font-semibold text-lg">Commercial</h3>
-                        <p class="text-gray-600 text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="text-gray-600 text-sm">The barn house captivates with its blend of rustic charm and
+                            modern.</p>
                     </div>
                 </div>
                 <div class="flex items-start p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition">
                     <div class="text-4xl mr-4 text-gray-700">
-                      <img src="./assets/residential.png" alt="">
+                        <img src="./assets/residential.png" alt="">
                     </div>
                     <div>
                         <h3 class="font-semibold text-lg">Residential</h3>
-                        <p class="text-gray-600 text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+                        <p class="text-gray-600 text-sm">The barn house captivates with its blend of rustic charm and
+                            modern.</p>
                     </div>
                 </div>
             </div>
@@ -119,7 +123,204 @@
         </div>
     </div>
 
-    
+    <!-- Our Works Process  -->
+    <div class="w-[90%] mx-auto bg-base-200 p-6">
+        <div class="text-center">
+            <button class=" bg-white rounded-full px-3 py-1 font-bold"> → How we works</button>
+            <h1 class="text-3xl font-bold pt-2">Our Works Process</h1>
+            <p class="py-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br>
+                featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-[#E7C1D3] p-6 rounded-lg">
+                <img src="./assets/concept.png" alt="">
+                <h2 class="text-xl font-semibold py-2">Concept</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+            <div class="bg-[#EFDA6E] p-6 rounded-lg">
+                <img src="./assets/flow-chart.png" alt="">
+                <h2 class="text-xl font-semibold py-2">Design Process</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+            <div class="bg-[#A4DAC3] p-6 rounded-lg">
+                <img src="./assets/vision.png" alt="">
+                <h2 class="text-xl font-semibold py-2">Supervision</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+            <div class="bg-[#77AAEA] p-6 rounded-lg">
+                <img src="./assets/budget-planning.png" alt="">
+                <h2 class="text-xl font-semibold py-2">Budget Planning</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- blog section area  -->
+
+    <section class="py-6 sm:py-12 dark:bg-gray-100 dark:text-gray-800 w-[90%] mx-auto">
+        <div class="container p-6 mx-auto space-y-8">
+            <div class="space-y-2 text-center">
+                <h2 class="text-3xl font-bold">The Modern Homestead</h2>
+                <p class="font-serif text-sm dark:text-gray-600">Discover a blend of rustic charm and modern design in today's most inspiring homes.</p>
+            </div>
+            <div class="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
+                <article class="flex flex-col dark:bg-gray-50">
+                    <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
+                        <img alt="" class="object-cover w-full h-52 dark:bg-gray-500" src="./assets/article1.png">
+                    </a>
+                    <div class="flex flex-col flex-1 p-6">
+                        <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+                        <a rel="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Convenire</a>
+                        <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Te nulla oportere reprimique his dolorum</h3>
+                        <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+                            <span>June 1, 2020</span>
+                            <span>2.1K views</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="flex flex-col dark:bg-gray-50">
+                    <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
+                        <img alt="" class="object-cover w-full h-52 dark:bg-gray-500" src="./assets/article2.png">
+                    </a>
+                    <div class="flex flex-col flex-1 p-6">
+                        <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+                        <a rel="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Convenire</a>
+                        <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Te nulla oportere reprimique his dolorum</h3>
+                        <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+                            <span>June 2, 2020</span>
+                            <span>2.2K views</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="flex flex-col dark:bg-gray-50">
+                    <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
+                        <img alt="" class="object-cover w-full h-52 dark:bg-gray-500" src="./assets/article3.png">
+                    </a>
+                    <div class="flex flex-col flex-1 p-6">
+                        <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+                        <a rel="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Convenire</a>
+                        <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Te nulla oportere reprimique his dolorum</h3>
+                        <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+                            <span>June 3, 2020</span>
+                            <span>2.3K views</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="flex flex-col dark:bg-gray-50">
+                    <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum">
+                        <img alt="" class="object-cover w-full h-52 dark:bg-gray-500" src="./assets/img3.png">
+                    </a>
+                    <div class="flex flex-col flex-1 p-6">
+                        <a rel="noopener noreferrer" href="#" aria-label="Te nulla oportere reprimique his dolorum"></a>
+                        <a rel="noopener noreferrer" href="#" class="text-xs tracking-wider uppercase hover:underline dark:text-violet-600">Convenire</a>
+                        <h3 class="flex-1 py-2 text-lg font-semibold leading-snug">Te nulla oportere reprimique his dolorum</h3>
+                        <div class="flex flex-wrap justify-between pt-3 space-x-2 text-xs dark:text-gray-600">
+                            <span>June 4, 2020</span>
+                            <span>2.4K views</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our Latest Portfolio  -->
+
+    <div class="w-[90%] mx-auto bg-base-200 rounded-lg p-8">
+        <!-- Header Section -->
+        <div class="text-center mb-10">
+            <button class="bg-white rounded-full px-4 py-2 font-bold text-gray-800 shadow-md mb-4">
+                → Explore our Latest works
+            </button>
+            <h1 class="text-3xl font-bold text-gray-800">Our Latest Portfolio</h1>
+            <p class="text-gray-600 mt-4">The barn house captivates with its blend of rustic charm and modern
+                sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Large Card with Details (Spans 2 columns on larger screens) -->
+            <div class="col-span-1 md:col-span-2 bg-white border rounded-lg shadow-md flex flex-col sm:flex-row p-6">
+                <img src="./assets/img4.png" alt="Barn House" class="sm:mr-4"><br>
+                <div class="flex flex-col justify-center">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">Commercial</h2>
+                    <p class="text-gray-600 mb-4">The barn house captivates with its blend of rustic charm and modern.
+                        The barn house captivates with its blend of rustic charm and modern.</p>
+                    <a class="text-bold">View Detail <i
+                            class="fa-solid fa-arrow-up-right-dots p-1 rounded-full bg-[#ABEF5F]"></i></a>
+                </div>
+            </div>
+
+            <!-- Single Image Card -->
+            <div class="bg-white border rounded-lg shadow-md p-4">
+                <img src="./assets/img2.png" alt="Modern House" class="w-full h-full object-cover rounded-lg">
+            </div>
+
+
+        </div><br>
+
+
+        <div class="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+            <!-- Additional Items -->
+            <div class="bg-white border rounded-lg shadow-md p-4">
+                <img src="./assets/img3.png" alt="Portfolio Image 3" class="w-full h-full object-cover rounded-lg">
+            </div>
+
+            <!-- Card with Text and Image -->
+            <div class="col-span-1 md:col-span-2 bg-white border rounded-lg shadow-md flex flex-col sm:flex-row p-6">
+                <img src="./assets/img1.png" alt="Portfolio Image 1"
+                    class="w-full sm:w-1/3 h-40 object-cover rounded-lg mb-4 sm:mb-0 sm:mr-4"><br>
+                <div class="flex flex-col justify-center">
+                    <h2 class="text-xl font-bold text-gray-800 mb-2">Commercial</h2>
+                    <p class="text-gray-600 mb-4">The barn house captivates with its blend of rustic charm and modern.
+                    </p>
+                    <a class="text-bold">View Detail <i
+                            class="fa-solid fa-arrow-up-right-dots p-1 rounded-full bg-[#ABEF5F]"></i></a>
+                </div>
+            </div>
+
+            <!-- Single Image Card -->
+            <div class="bg-white border rounded-lg shadow-md p-4">
+                <img src="./assets/img5.png" alt="Portfolio Image 5" class="w-full h-full  object-cover rounded-lg">
+            </div>
+        </div>
+    </div>
+
+
+<!-- footer area  -->
+
+<div class="mx-auto  bg-[url('./assets/bg.jpg')] w-[90%] bg-no-repeat bg-cover bg-center p-4 flex ">
+    <div class=" p-8 max-w-xl  mx-auto">
+        <!-- Heading Section -->
+        <div class="text-center mb-6">
+            <h2 class="text-3xl font-bold text-gray-800">Let's Discuss Next Project</h2>
+            <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        
+        <!-- Form Section -->
+        <form class="space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="text" placeholder="First Name*" class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500">
+                <input type="text" placeholder="Last Name*" class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="tel" placeholder="Phone Number*" class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500">
+                <input type="email" placeholder="Email Number*" class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500">
+            </div>
+            <textarea placeholder="Write your message here" class="border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500 w-full h-32"></textarea>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="bg-[#ABEF5F]  font-bold py-3 rounded-lg w-full focus:outline-none focus:ring-2 focus:ring-opacity-50">
+                Send Mail <i class="fa-solid fa-arrow-up-right-dots p-1 rounded-full text-white bg-black"></i>
+            </button>
+        </form>
+    </div>
+</div>
+
+
+
+
 </body>
 
 </html>
